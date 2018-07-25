@@ -1,0 +1,48 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose run-script [ 'predev', 'dev', 'postdev' ]
+5 info lifecycle reduxapp@1.0.0~predev: reduxapp@1.0.0
+6 silly lifecycle reduxapp@1.0.0~predev: no script for predev, continuing
+7 info lifecycle reduxapp@1.0.0~dev: reduxapp@1.0.0
+8 verbose lifecycle reduxapp@1.0.0~dev: unsafe-perm in lifecycle true
+9 verbose lifecycle reduxapp@1.0.0~dev: PATH: C:\Program Files\nodejs\node_modules\npm\bin\node-gyp-bin;C:\KnowledgeBase\React_tutorial\react_02\03_redux\node_modules\.bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Git\cmd;C:\Program Files\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\Python\Python36\Scripts\;C:\Python\Python36\;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Git\cmd;C:\apache-maven-3.5.0\bin;C:\Users\S.Malyshevskij\AppData\Roaming\npm;C:\OpenServer\modules\php\PHP-5.6-x64;
+10 verbose lifecycle reduxapp@1.0.0~dev: CWD: C:\KnowledgeBase\React_tutorial\react_02\03_redux
+11 silly lifecycle reduxapp@1.0.0~dev: Args: [ '/d /s /c', 'webpack-dev-server --hot --open' ]
+12 silly lifecycle reduxapp@1.0.0~dev: Returned: code: 3221225786  signal: null
+13 info lifecycle reduxapp@1.0.0~dev: Failed to exec dev script
+14 verbose stack Error: reduxapp@1.0.0 dev: `webpack-dev-server --hot --open`
+14 verbose stack Exit status 3221225786
+14 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:255:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:40:14)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:891:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+15 verbose pkgid reduxapp@1.0.0
+16 verbose cwd C:\KnowledgeBase\React_tutorial\react_02\03_redux
+17 error Windows_NT 6.1.7601
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "dev"
+19 error node v6.11.2
+20 error npm  v3.10.10
+21 error code ELIFECYCLE
+22 error reduxapp@1.0.0 dev: `webpack-dev-server --hot --open`
+22 error Exit status 3221225786
+23 error Failed at the reduxapp@1.0.0 dev script 'webpack-dev-server --hot --open'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the reduxapp package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     webpack-dev-server --hot --open
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs reduxapp
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls reduxapp
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
